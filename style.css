@@ -1,0 +1,18 @@
+h1 {
+    font-size: 30px !important;
+}
+
+.btn-primary:hover {
+    background-color: brown;
+}
+
+canvas {
+    animation-name: changeBg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeBg {
+    from{box-shadow: 2px 2px 25px blue}
+    to{box-shadow: 2px 2px 25px rgb(127, 229, 255)};
+}
