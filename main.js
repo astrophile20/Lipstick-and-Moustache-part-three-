@@ -34,9 +34,9 @@ function getPoses(results) {
         console.log(results);
         console.log("Nose x = " + results[0].pose.nose.x);
         console.log("Nose y = " + results[0].pose.nose.y);
-        noseX = results[0].pose.nose.x - 40;
-        noseY = results[0].pose.nose.y;
-        noseXaxis = results[0].pose.nose.x - 20;
+        noseX = results[0].pose.nose.x - 45;
+        noseY = results[0].pose.nose.y + 2;
+        noseXaxis = results[0].pose.nose.x - 33;
         noseYaxis = results[0].pose.nose.y + 25;
     }
 }
